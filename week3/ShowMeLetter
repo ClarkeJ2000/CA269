@@ -1,0 +1,21 @@
+public class ShowMeLetter
+{
+	public static String showLetter(String word, char guess)
+	{
+		int wordlen = word.length();
+		String result = "";
+
+		for(int letterIndex=0;letterIndex<wordlen;letterIndex++)
+		{
+			if(word.charAt(letterIndex)==guess)
+			{
+				result = result + word.charAt(letterIndex);
+			}
+			else
+			{
+				result = result + "_";
+			}
+		}
+		return result;
+	}
+}
