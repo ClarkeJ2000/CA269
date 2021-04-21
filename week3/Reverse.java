@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-
 public class Reverse
 {
-    public static void main(String [] args)
+    public static void reverse(String [] args)
     {
         Scanner in = new Scanner(System.in);
         //take in first number, how many numbers that will be in the list

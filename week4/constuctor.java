@@ -1,7 +1,7 @@
-public class BankAccount
+public class constuctor
 {
 	double balance;
-	public BankAccount(double x)
+	public constuctor(double x)
 	{
 		this.balance = x;
 	}
